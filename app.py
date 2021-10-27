@@ -1,4 +1,3 @@
-
 # This code was designed by Kafalis Panagiotis on Oktober 2021.
 # It is intended for academic use at the Dept. of Informatics and Telecommunication
 # of University of Ioannina.
