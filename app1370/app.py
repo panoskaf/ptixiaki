@@ -791,14 +791,14 @@ def scholar_info():
 
 
 
-def h_index(citations: list[int]) -> int:
+def h_index(citations):
     citations.sort(reverse = True)
     for indx , citation in enumerate(citations):
         if indx + 1 >= citation:
             return citation
         
 
-def i_10(citations: list[int]):   
+def i_10(citations):   
     citations.sort(reverse = True)
     count=0
     for indx  in citations:
