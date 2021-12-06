@@ -127,22 +127,6 @@ def person_csv_to_db():
           
        
 person_csv_to_db()  
-
-
-###############TEST##################### 
-#!!!!!!!!!!!gia dokimes /diagrafi vasis   
-def delete_base():
-   # c.execute("DELETE FROM person")
-    c.execute("DELETE FROM papers")
-    c.execute("DELETE FROM person_paper")
-      
-#τεστ
-def persons():
-    c.execute("SELECT * FROM person")
-    records = c.fetchall()
-    print(records)
-  
-#######################################  
     
 
 #στατιστικες λειτουργειες εφαρμογης    
