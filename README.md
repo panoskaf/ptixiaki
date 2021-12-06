@@ -46,7 +46,7 @@ pyinstaller --onefile -w --icon=icon.ico app.py
 
 Στον παρακάτω σύνδεσμο μπορείτε να κατεβάσετε την τελευταλια έκδοση της εφαρμογής.
 
-Download: {here}(https://github.com/panoskaf/ptixiaki/releases)
+Download: [here](https://github.com/panoskaf/ptixiaki/releases)
 
 
 ## Συγγραφείς
