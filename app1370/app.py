@@ -991,9 +991,9 @@ my_tree.column("#0", width=0, stretch=tk.NO)
 my_tree.column("ID", anchor=tk.W,minwidth=10, width=150,stretch=tk.NO )
 my_tree.column("TYPE", anchor=tk.CENTER,minwidth=10, width=130,stretch=tk.NO )
 my_tree.column("TITLE", anchor=tk.W,minwidth=10, width=420 )
-my_tree.column("AUTHORS", anchor=tk.W,minwidth=10, width=270 )
+my_tree.column("AUTHORS", anchor=tk.W,minwidth=10, width=250 )
 my_tree.column("YEAR", anchor=tk.CENTER,minwidth=10, width=40,stretch=tk.NO) 
-my_tree.column("SOURCE", anchor=tk.W ,minwidth=10, width=200)
+my_tree.column("SOURCE", anchor=tk.W ,minwidth=10, width=190)
 my_tree.column("CITES", anchor=tk.CENTER,minwidth=10, width=40,stretch=tk.NO) 
 
 # Create Headings
