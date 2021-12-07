@@ -71,4 +71,4 @@ Download: [here](https://github.com/panoskaf/ptixiaki/releases)
 
 ## Άδεια
 
-Αυτό το έργο αδειοδοτείται με την άδεια [ΜΙΤ] - δείτε το αρχείο LICENSE.md για λεπτομέρειες
+Αυτό το έργο αδειοδοτείται με την άδεια [ΜΙΤ](https://github.com/panoskaf/ptixiaki/blob/main/LICENSE) - δείτε το αρχείο LICENSE.md για λεπτομέρειες
