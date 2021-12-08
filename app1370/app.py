@@ -356,7 +356,7 @@ def results(*args):
             
         pop = Toplevel(root)
         pop.title("Aριθμός αναφορών ανά καθηγητή")
-        pop.geometry("1520x750+10+10")
+        pop.geometry("1510x730+5+5")
         pop.config(bg="#505251")
            
         text = Text(pop)
@@ -371,7 +371,7 @@ def results(*args):
         exp_vals = cite
         exp_labels = authors_names
         
-        figure1, ax = plt.subplots(dpi=90)
+        figure1, ax = plt.subplots(dpi=86)
         ax.set_title('Aριθμός αναφορών ανά καθηγητή')
         ax.barh(authors_names,exp_vals)
         
@@ -411,7 +411,7 @@ def results(*args):
         exp_vals = count_papers
         exp_labels = authors_names
         
-        figure1, ax = plt.subplots(dpi=90)
+        figure1, ax = plt.subplots(dpi=86)
         ax.set_title('Αριθμός δημοσιεύσεων ανά καθηγητή')
         ax.barh(authors_names,exp_vals)
         
@@ -438,7 +438,7 @@ def results(*args):
             
         pop = Toplevel(root)
         pop.title("Αριθμός δημοσιεύσεων ανά καθηγητή ανά έτος (5ετία)")
-        pop.geometry("1520x750+0+0")
+        pop.geometry("1510x750+0+0")
         pop.config(bg="#505251")
            
         text = Text(pop)
@@ -470,7 +470,7 @@ def results(*args):
         x = np.arange(len(labels))  # the label locations
         width = 0.12  # the width of the bars
 
-        figure1, ax = plt.subplots(dpi=90)
+        figure1, ax = plt.subplots(dpi=86)
        
         ax.barh(x + 1.1*width, data1, width, label=current_year-4)
         ax.barh(x + 1.1*width*2, data2, width, label=current_year-3)
@@ -568,10 +568,10 @@ def add_person_creation():
     pop.config(bg="#c6e2ff")
     pop.geometry("650x150+400+300")
     
-    pop_label = Label(pop, text="Όνομα με Ελληνικούς χαρακτήρες :",  font=("helvetica", 12),bg="#c6e2ff")
+    pop_label = Label(pop, text="Όνομ/νυμο με Ελληνικούς χαρακτήρες :",  font=("helvetica", 12),bg="#c6e2ff")
     pop_label.grid(row=0, column=0, padx=10 ,pady=10)
     
-    pop_label2 = Label(pop, text="Όνομα με Λατινικούς χαρακτήρες :",  font=("helvetica", 12),bg="#c6e2ff")
+    pop_label2 = Label(pop, text="Όνομ/νυμο με Λατινικούς χαρακτήρες :",  font=("helvetica", 12),bg="#c6e2ff")
     pop_label2.grid(row=1, column=0, padx=10,pady=10)
  
     pop_label3 = Label(pop, text="Κωδικός Google Scholar ID :",  font=("helvetica", 12),bg="#c6e2ff")
