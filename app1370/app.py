@@ -251,7 +251,7 @@ def results(*args):
         #πληθος αρθρων ανα ετος απο ολους τς καθηγητες μαζι
         c.execute("""SELECT years FROM papers
                  WHERE years >= ?
-                 ORDER BY years""",(current_year-4,)) 
+                 ORDER BY years DESC""",(current_year-4,)) 
 
         paper_year = c.fetchall()
         
