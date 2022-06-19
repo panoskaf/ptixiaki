@@ -45,6 +45,7 @@ pyinstaller --onefile -w --icon=icon.ico app.py
 ### Εκτέλεση προγράμματος απο αρχειο .exe
 
 Στον παρακάτω σύνδεσμο μπορείτε να κατεβάσετε την τελευταλια έκδοση της εφαρμογής.
+Για να μπορέσουμε να εκτελέσουμε την εφαρμογή θα πρέπει να έχουμε εγκατεστημένη στον υπολογιστή μας την [Python](https://www.python.org/downloads/). 
 
 Download: [here](https://github.com/panoskaf/ptixiaki/releases)
 
